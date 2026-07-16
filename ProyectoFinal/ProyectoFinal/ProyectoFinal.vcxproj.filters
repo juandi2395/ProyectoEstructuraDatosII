@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\estructuras\ArbolBPlus.cpp" />
+    <ClCompile Include="src\estructuras\ArbolRojoNegro.cpp" />
+    <ClCompile Include="src\estructuras\ColaServicios.cpp" />
+    <ClCompile Include="src\estructuras\GrafoRecomendaciones.cpp" />
+    <ClCompile Include="src\estructuras\HashingDinamico.cpp" />
+    <ClCompile Include="src\persistencia\HttpClient.cpp" />
+    <ClCompile Include="src\persistencia\PersistenciaMongoAPI.cpp" />
+    <ClCompile Include="src\presentacion\SistemaBiblioteca.cpp" />
+    <ClCompile Include="src\servicios\LibroService.cpp" />
+    <ClCompile Include="src\servicios\PrestamoService.cpp" />
+    <ClCompile Include="src\servicios\RecomendacionService.cpp" />
+    <ClCompile Include="src\servicios\UsuarioService.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\estructuras\ArbolBPlus.h" />
+    <ClInclude Include="src\estructuras\ArbolRojoNegro.h" />
+    <ClInclude Include="src\estructuras\ColaServicios.h" />
+    <ClInclude Include="src\estructuras\GrafoRecomendaciones.h" />
+    <ClInclude Include="src\estructuras\HashingDinamico.h" />
+    <ClInclude Include="src\modelos\Libro.h" />
+    <ClInclude Include="src\modelos\Prestamo.h" />
+    <ClInclude Include="src\modelos\SolicitudPrestamo.h" />
+    <ClInclude Include="src\modelos\Usuario.h" />
+    <ClInclude Include="src\persistencia\HttpClient.h" />
+    <ClInclude Include="src\persistencia\PersistenciaMongoAPI.h" />
+    <ClInclude Include="src\presentacion\SistemaBiblioteca.h" />
+    <ClInclude Include="src\servicios\LibroService.h" />
+    <ClInclude Include="src\servicios\PrestamoService.h" />
+    <ClInclude Include="src\servicios\RecomendacionService.h" />
+    <ClInclude Include="src\servicios\UsuarioService.h" />
+  </ItemGroup>
+</Project>
